@@ -1,2 +1,2 @@
-FROM mono:3.8.0-onbuild
+FROM friism/mono:3.8.0-onbuild
 CMD [ "mono",  "./TestingConsoleApp.exe" ]
